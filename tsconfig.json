@@ -4,9 +4,8 @@
     "target": "es2015",
     "declaration": true,
     "outDir": "./dist",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
-  "include": [
-    "lib/**/*"
-  ]
+  "include": ["lib/**/*"]
 }

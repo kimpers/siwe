@@ -9,6 +9,8 @@
   },
   "scripts": {
     "test": "jest",
+    "install": "yarn build",
+    "build": "yarn tsc",
     "docs": "typedoc --plugin nlfurniss-typedoc-plugin-sourcefile-url --plugin typedoc-plugin-extras --sourcefile-url-prefix 'https://github.com/spruceid/siwe' --favicon ./favicon.svg --out docs lib/siwe.ts"
   },
   "author": "Spruce Systems Inc.",
@@ -19,12 +21,12 @@
     "nlfurniss-typedoc-plugin-sourcefile-url": "^2.0.0",
     "ts-jest": "^27.0.7",
     "typedoc": "^0.22.7",
-    "typedoc-plugin-extras": "^2.2.1",
-    "typescript": "^4.4.4"
+    "typedoc-plugin-extras": "^2.2.1"
   },
   "dependencies": {
     "@stablelib/random": "^1.0.1",
     "apg-js": "^4.1.1",
-    "ethers": "^5.5.1"
+    "ethers": "^5.5.1",
+    "typescript": "^4.4.4"
   }
 }
